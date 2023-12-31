@@ -76,9 +76,9 @@
         default_layer {
             label = "BASE";
             bindings = <
-                &kp DE_B        &kp DE_U        &lt SYM_L DE_DOT    &kp DE_COMM      &kp DE_UDIA    &kp DE_P         &kp DE_C       &lt SYM_L DE_L &kp DE_M       &kp DE_F
-                &mt LGUI  DE_H  &mt LALT DE_I   &mt LSHFT DE_E      &mt LCTRL DE_A   &kp DE_O       &kp DE_D         &mt LCTRL DE_T &mt LSHFT DE_R &mt LALT DE_N  &mt LGUI DE_S
-                &lt XCV_L DE_K  &kp DE_B        &kp DE_ODIA         &kp DE_ADIA      &kp DE_Q       &kp DE_J         &kp DE_G       &kp DE_W       &kp DE_V       &kp DE_Y
+                &kp DE_B        &kp DE_U        &lt SYMR_L DE_DOT   &kp DE_COMM      &kp DE_UDIA    &kp DE_P         &kp DE_C       &lt SYML_L DE_L &kp DE_M       &kp DE_F
+                &mt LGUI  DE_H  &mt LALT DE_I   &mt LSHFT DE_E      &mt LCTRL DE_A   &kp DE_O       &kp DE_D         &mt LCTRL DE_T &mt LSHFT DE_R  &mt LALT DE_N  &mt LGUI DE_S
+                &lt XCV_L DE_K  &kp DE_B        &kp DE_ODIA         &kp DE_ADIA      &kp DE_Q       &kp DE_J         &kp DE_G       &kp DE_W        &kp DE_V       &kp DE_Y
                                                                     &lt NUM_L BSPC   &kp SPC        &kp ENTER        &mo NAV_L
             >;
         };
