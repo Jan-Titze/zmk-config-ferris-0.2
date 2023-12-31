@@ -61,7 +61,7 @@
             bindings = <
                 &kp DE_B        &kp DE_U        &lt SYMR_L DE_DOT   &kp DE_COMM      &kp DE_UDIA    &kp DE_P         &kp DE_C       &lt SYML_L DE_L &kp DE_M       &kp DE_F
                 &mt LGUI  DE_H  &mt LALT DE_I   &mt LSHFT DE_E      &mt LCTRL DE_A   &kp DE_O       &kp DE_D         &mt LCTRL DE_T &mt LSHFT DE_R  &mt LALT DE_N  &mt LGUI DE_S
-                &lt XCV_L DE_K  &kp DE_B        &kp DE_ODIA         &kp DE_ADIA      &kp DE_Q       &kp DE_J         &kp DE_G       &kp DE_W        &kp DE_V       &kp DE_Y
+                &lt XCV_L DE_K  &kp DE_Y        &kp DE_ODIA         &kp DE_ADIA      &kp DE_Q       &kp DE_J         &kp DE_G       &kp DE_W        &kp DE_V       &kp DE_Y
                                                                     &lt NUM_L BSPC   &kp SPC        &kp ENTER        &mo NAV_L
             >;
         };
@@ -69,8 +69,8 @@
         num_layer {
             label = "NUMBERS";
             bindings = <
-                XXXXXXX       XXXXXXX      XXXXXXX        XXXXXXX    XXXXXXX       &kp DE_COLN      &kp DE_7      &kp DE_8        &kp DE_9    &kp DE_UNDS 
-                &kp LGUI      &kp LALT     &kp LSHFT      &kp LCTRL  XXXXXXX       &kp DE_0         &kp DE_4      &kp DE_5        &kp DE_6    &kp DE_MINS 
+                XXXXXXX       XXXXXXX      XXXXXXX        XXXXXXX    XXXXXXX       &kp DE_X         &kp DE_7      &kp DE_8        &kp DE_9    &kp DE_UNDS 
+                &kp LGUI      &kp LALT     &kp LSHFT      &kp LCTRL  XXXXXXX       &kp DE_0         &kp DE_4      &kp DE_5        &kp DE_6    &kp DE_SS 
                 XXXXXXX       XXXXXXX      XXXXXXX        XXXXXXX    XXXXXXX       &kp DE_DOT       &kp DE_1      &kp DE_2        &kp DE_3    &kp DE_COMM
                                                           _______    XXXXXXX       XXXXXXX          &mo ADJ_L
             >;
