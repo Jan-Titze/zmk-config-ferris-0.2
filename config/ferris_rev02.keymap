@@ -53,22 +53,6 @@
 };
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        number_lock {
-	    timeout-ms = <50>;
-            key-positions = <THUMB_4 INDEX_R>;
-            bindings = <&to SNUM_L>;
-        };
-
-        adjust_oneshot {
-	    timeout-ms = <50>;
-            key-positions = <THUMB_4 MIDDLE_R>;
-            bindings = <&sl ADJ_L>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
