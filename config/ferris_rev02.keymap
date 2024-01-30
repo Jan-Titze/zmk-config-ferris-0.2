@@ -178,9 +178,9 @@
         symr_layer {
             label = "SYMR";
             bindings = <
-                XXXXXXX       XXXXXXX      _______        XXXXXXX    XXXXXXX       &kp DE_EQL   &kp DE_LCBR  &kp DE_RCBR  &kp DE_SUP2  &kp DE_SUP3
+                XXXXXXX       XXXXXXX      _______        XXXXXXX    XXXXXXX       &kp DE_EQL   &kp DE_LCBR  &kp DE_RCBR  &kp DE_EURO  &kp DE_DLR
                 &kp LGUI      &kp LALT     XXXXXXX        &kp LCTRL  XXXXXXX       &kp DE_MINS  &kp DE_LABK  &kp DE_RABK  &kp DE_AT    &kp DE_PERC
-                XXXXXXX       XXXXXXX      XXXXXXX        XXXXXXX    XXXXXXX       &kp DE_UNDS  &kp DE_EURO  &kp DE_DLR   &kp DE_DEG   &kp DE_MICR
+                XXXXXXX       XXXXXXX      XXXXXXX        XXXXXXX    XXXXXXX       &kp DE_UNDS  &kp DE_COLN  &kp DE_SCLN  &kp DE_GRV   XXXXXXX
                                                           XXXXXXX    XXXXXXX       &kp DE_PLUS  XXXXXXX
             >;
         };
@@ -188,9 +188,9 @@
         adj_layer {
             label = "ADJ";
             bindings = <
-                XXXXXXX      XXXXXXX      XXXXXXX      XXXXXXX      XXXXXXX         XXXXXXX       &kp F7        &kp F8          &kp F9       &kp F10   
-                &kp LGUI     &kp LALT     &kp LSHFT    &kp LCTRL    XXXXXXX         XXXXXXX       &kp F4        &kp F5          &kp F6       &kp F11
-                XXXXXXX      XXXXXXX      XXXXXXX      XXXXXXX      XXXXXXX         XXXXXXX       &kp F1        &kp F2          &kp F3       &kp F12
+                XXXXXXX      XXXXXXX      XXXXXXX      XXXXXXX      &kp DE_DEG      &kp DE_SUP3   &kp F7        &kp F8          &kp F9       &kp F10   
+                &kp LGUI     &kp LALT     &kp LSHFT    &kp LCTRL    &kp DE_MICR     &kp DE_SUP2   &kp F4        &kp F5          &kp F6       &kp F11
+                XXXXXXX      XXXXXXX      XXXXXXX      XXXXXXX      &kp DE_SECT     XXXXXXX       &kp F1        &kp F2          &kp F3       &kp F12
                                                        _______      XXXXXXX         XXXXXXX       _______
             >;
         };
