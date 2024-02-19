@@ -79,7 +79,7 @@
         // https://zmk.dev/docs/behaviors/hold-tap#positional-hold-tap-and-hold-trigger-key-positions 
         // require-prior-idle-md = modifier kommen nur, wenn vorher eine kurze Pause ist.
 
-        lts: positional_home_row_left { // layer tap instant
+        lts: layer_tap_without_idle { // layer tap instant
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-preferred"; // 'hold-preferred', 'balanced', 'tap-preferred'
