@@ -69,9 +69,10 @@
 
         // &caps_word on shift keys
         combo_caps_word { 
-            timeout-ms = <70>;
+            timeout-ms = <60>;
             key-positions = <MIDDLE_L MIDDLE_R>;
             bindings = <&caps_word>;
+            require-prior-idle-ms = <200>
         };
     };
 
