@@ -72,7 +72,7 @@
             timeout-ms = <60>;
             key-positions = <MIDDLE_L MIDDLE_R>;
             bindings = <&caps_word>;
-            require-prior-idle-ms = <200>
+            require-prior-idle-ms = <200>;
         };
     };
 
