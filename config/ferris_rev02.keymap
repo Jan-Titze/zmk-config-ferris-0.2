@@ -192,18 +192,18 @@
 
         sym_layer {
             bindings = <
-                &kp DE_CIRC &kp DE_AMPR &kp DE_QUOT &kp DE_DQUO &kp DE_EXLM     XXXXXXX       XXXXXXX      _______        XXXXXXX    XXXXXXX
-                &kp DE_BSLS &kp DE_SLSH &kp DE_LPRN &kp DE_RPRN &kp DE_QUES     XXXXXXX       &kp LCTRL    XXXXXXX        &kp LALT   &kp LGUI 
+                &kp DE_CIRC &kp DE_AMPR &kp DE_LCBR &kp DE_RCBR &kp DE_SCLN     XXXXXXX       XXXXXXX      _______        XXXXXXX    XXXXXXX
+                &kp DE_BSLS &kp DE_SLSH &kp DE_LPRN &kp DE_RPRN &kp DE_COLN     XXXXXXX       &kp LCTRL    XXXXXXX        &kp LALT   &kp LGUI 
                 &kp DE_PIPE &kp DE_TILD &kp DE_LBRC &kp DE_RBRC &kp DE_HASH     XXXXXXX       XXXXXXX      XXXXXXX        XXXXXXX    XXXXXXX
-                                                    XXXXXXX     &kp DE_ASTR     XXXXXXX       XXXXXXX      
+                                                    XXXXXXX     &kp DE_ASTR     XXXXXXX       XXXXXXX   
             >;
         };
 
         symr_layer {
             bindings = <
-                XXXXXXX       XXXXXXX      _______        XXXXXXX    XXXXXXX       &kp DE_EQL   &kp DE_LCBR  &kp DE_RCBR  &kp DE_EURO  &kp DE_DLR
-                &kp LGUI      &kp LALT     XXXXXXX        &kp LCTRL  XXXXXXX       &kp DE_MINS  &kp DE_LABK  &kp DE_RABK  &kp DE_AT    &kp DE_PERC
-                XXXXXXX       XXXXXXX      XXXXXXX        XXXXXXX    XXXXXXX       &kp DE_UNDS  &kp DE_COLN  &kp DE_SCLN  &kp DE_GRV   XXXXXXX
+                XXXXXXX       XXXXXXX      _______        XXXXXXX    XXXXXXX       &kp DE_EQL   &kp DE_DQUO  &kp DE_QUOT  &kp DE_EURO  &kp DE_DLR
+                &kp LGUI      &kp LALT     XXXXXXX        &kp LCTRL  XXXXXXX       &kp DE_MINS  &kp DE_EXLM  &kp DE_QUES  &kp DE_AT    &kp DE_PERC
+                XXXXXXX       XXXXXXX      XXXXXXX        XXXXXXX    XXXXXXX       &kp DE_UNDS  &kp DE_LABK  &kp DE_RABK  &kp DE_GRV   XXXXXXX
                                                           XXXXXXX    XXXXXXX       &kp DE_PLUS  XXXXXXX
             >;
         };
