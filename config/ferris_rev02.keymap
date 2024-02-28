@@ -49,8 +49,8 @@
 // Using layer taps on thumbs, having quick tap as well helps w/ repeating space/backspace
 &lt { 
     quick_tap_ms = <200>; 
-    tapping-term-ms = <230>;
-    flavor = "tap-preferred";
+    tapping-term-ms = <200>;
+    flavor = "balanced";
 };
 
 &sk {
@@ -70,7 +70,7 @@
         // &caps_word on shift keys
         combo_caps_word { 
             timeout-ms = <60>;
-            key-positions = <MIDDLE_L MIDDLE_R>;
+            key-positions = <2 7>;
             bindings = <&caps_word>;
             require-prior-idle-ms = <200>;
         };
