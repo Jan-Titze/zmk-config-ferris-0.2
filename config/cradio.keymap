@@ -50,7 +50,7 @@
 // Using layer taps on thumbs, having quick tap as well helps w/ repeating space/backspace
 &lt { 
     quick_tap_ms = <200>; 
-    tapping-term-ms = <200>;
+    tapping-term-ms = <150>;
     flavor = "balanced";
 };
 
@@ -94,7 +94,7 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "balanced"; // 'hold-preferred', 'balanced', 'tap-preferred'
-            tapping-term-ms = <230>;
+            tapping-term-ms = <180>;
             quick-tap-ms = <200>;
             require-prior-idle-ms = <120>;
             bindings = <&mo>, <&kp>;
@@ -104,7 +104,7 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "balanced"; // 'hold-preferred', 'balanced', 'tap-preferred'
-            tapping-term-ms = <230>;
+            tapping-term-ms = <180>;
             quick-tap-ms = <200>;
             require-prior-idle-ms = <120>;
             bindings = <&mo>, <&kp>;
@@ -114,7 +114,7 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "balanced"; // 'hold-preferred', 'balanced', 'tap-preferred'
-            tapping-term-ms = <230>;
+            tapping-term-ms = <200>;
             quick-tap-ms = <200>;
             require-prior-idle-ms = <120>;
             bindings = <&kp>, <&kp>;
@@ -124,7 +124,7 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "balanced"; // 'hold-preferred', 'balanced', 'tap-preferred'
-            tapping-term-ms = <230>;
+            tapping-term-ms = <200>;
             quick-tap-ms = <200>;
             require-prior-idle-ms = <120>;
             bindings = <&kp>, <&kp>;
@@ -158,7 +158,7 @@
         default_layer {
             bindings = <
                 &kp DE_B        &kp DE_U        &mtl SYMR_L DE_DOT  &kp DE_COMM      &kp DE_UDIA    &kp DE_P         &kp DE_C        &mtr SYML_L DE_L &kp DE_M        &kp DE_F
-                &shl LGUI  DE_H &hml LALT DE_I  &hml LSHFT DE_E     &hml LCTRL DE_A  &kp DE_O       &kp DE_D         &hmr LCTRL DE_T &hmr LSHFT DE_R  &hmr LALT DE_N  &shr LGUI DE_S
+                &shl LGUI  DE_H &hml LALT DE_I  &lt LSHFT DE_E      &hml LCTRL DE_A  &kp DE_O       &kp DE_D         &hmr LCTRL DE_T &lt LSHFT DE_R   &hmr LALT DE_N  &shr LGUI DE_S
                 &lts XCV_L DE_K &kp DE_Y        &kp DE_ODIA         &kp DE_ADIA      &kp DE_Q       &kp DE_J         &kp DE_G        &kp DE_W         &kp DE_V        &kp DE_Z
                                                                     &lt NUM_L BSPC   &kp SPC        &kp ENTER        &mo NAV_L
             >;
